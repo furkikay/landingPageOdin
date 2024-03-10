@@ -28,6 +28,10 @@ h1{
     font-size: 48px;
 }
 
+h2{
+    font-size: 36px;
+}
+
 .quote-box{
     background-color: #E5E7EB;
 }
@@ -56,7 +60,7 @@ nav ul{
     width: 400px;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 nav ul li{
@@ -83,12 +87,38 @@ header{
     margin-right: 200px;
 }
 
-.top-content-text{
+.top-content-info{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top-content-text{
+    width: 82.5%;
 }
 
 .main-content{
     padding: 100px 200px 150px 200px;
     display: flex;
+}
+
+.signUp-1{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 125px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-images img{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
 }
