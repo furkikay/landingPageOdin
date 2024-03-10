@@ -90,11 +90,14 @@ header{
 .top-content-info{
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     justify-content: space-evenly;
 }
 
 .top-content-text{
     width: 82.5%;
+=======
+>>>>>>> main
 }
 
 .main-content{
